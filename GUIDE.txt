@@ -1,0 +1,26 @@
+Nombre del proyecto: Seniors Shop (Pendiente a actualizarse mas adelante)
+Descripción del proyecto:
+Esta aplicación tratara de una aplicación tipo ecommerce donde los productos seran productos hechas a mano (tejidos, accesorios, etc.) por personas ancianas, para que estas puedan vender sus productos y tengan mayor visibilidad en el mercado.
+
+Descripción tecnica del proyecto:
+El proyecto se desarrollara con Next.js, utilizando el framework de Next.js para crear una aplicación frontend responsive y para el backend aprovecharemos el framework de Next.js para crear una API REST o usar los Server Actions para que sea todo en un solo proyecto, usaremos en el backend postgresql como base de datos y prisma como ORM y en el frontend usaremos TailwindCSS y Shadcn para los estilos y componentes de la aplicacion, react hook form para los formularios y zod para la validacion de los formularios, tendra una pequeña sección de administrador donde gestionaremos los productos (crud), categorias (crud) y una sección del cliente donde veran el catalogo y demas funcionalidades.
+
+Diseño de la aplicación:
+Al ser una tienda donde se vendera productos hechas a mano por personas ancianas como forma de apoyarles, la aplicacion sera de colores pasteles que consideres la mejor combinación para este tipo de aplicación, con un diseño minimalista pero moderno y elegante, con un logo que representa a las personas ancianas y sus productos, tener animaciones suaves y fluidas donde lo consideres necesarios (como en las cards de los productos y en algunas secciones del landing page) y al pasar de una pagina a otra que haga una transicion suave y fluida.
+
+Funcionalidades del proyecto:
+- Unico Login solo para administradores (/auth/login), no debe tener un link de registro, solo un link de login y solo se podra acceder mientras desde el url ya que no debe haber un link o boton en la vista del cliente que te lleve al login.
+- Panel de administracion donde los administradores podran gestionar los productos, categorias y un pequeño dashboard con la información de cantidad de productos, categorias, etc. (/admin/).
+- Landing Page donde las personas veran de que trata esta pagina y contendra lo siguiente: 
+1. Navbar con el logo de la aplicación, un boton de inicio, catalogo, y un menu hamburguesa cuando este en mobile responsive.
+2. Hero carrusel con imagenes de los productos e información importante, 
+3. Seccion nuestra historia, 
+4. Secciones de valores, mision y vision de la aplicacion, 
+5. Objetivos y beneficios de la aplicacion, 
+6. Una pequeña sección del catalogo (max 3 productos) con un ver mas al final que te redigira a la pantalla completa del catalogo de productos, 
+7. una sección de nuestros queridos colaboradores (que son los ancianos que estamos apoyando) y donde mostraremos una card por cada anciano con su nombre y apellido e imagen y que cuando se pase el mouse por encima que haga una pequeña animación de voltearse la card de la persona y se mostrara su nombre y apellido, su foto translucida para que se pueda ver la información y su breve descripcion de quien es y lo que hace.
+8. finalmente un footer con informacion de contacto y redes sociales.
+
+- Catalogo de productos donde se mostraran los productos disponibles para comprar, debe tener un filtro de categorias.
+- Carrito de compras donde se mostrara los productos que el usuario ha seleccionado.
+- Checkout donde el usuario podra finalizar su compra, aqui no habra facturación sino que al finalizar debe redirigir al usuario al whatsapp de la tienda (numero: 987654321) con un mensaje construido con la información del pedido, nombre completo del usuario, dni, el total a pagar y el metodo de pago (opcional) (Yape o Plin o Transferencia).
