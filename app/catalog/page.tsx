@@ -5,9 +5,14 @@ import { Footer } from '@/components/footer'
 import { ProductCard } from '@/components/product-card'
 import { CategoryFilters } from '@/components/category-filters'
 import { SearchX } from 'lucide-react'
+import { Category, Product } from '@prisma/client'
 
 interface CatalogPageProps {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}
+
+type ProductWithCategory = Product & {
+  category: Category
 }
 
 export default async function CatalogPage({ searchParams }: CatalogPageProps) {
@@ -41,7 +46,7 @@ export default async function CatalogPage({ searchParams }: CatalogPageProps) {
 
         {products && products.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {products?.map((product) => (
+            {products?.map((product: ProductWithCategory) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>

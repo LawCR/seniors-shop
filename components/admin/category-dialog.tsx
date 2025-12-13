@@ -63,6 +63,7 @@ export function CategoryDialog({ category, children }: CategoryDialogProps) {
         toast.error(result.error || 'Error al guardar la categoría')
       }
     } catch (error) {
+      console.log(error)
       toast.error('Ocurrió un error inesperado')
     } finally {
       setIsSubmitting(false)
