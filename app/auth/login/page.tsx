@@ -67,7 +67,7 @@ export default function LoginPage() {
               <Input
                 id="email"
                 type="email"
-                placeholder="admin@seniorsshop.com"
+                placeholder="admin@manosdevida.com"
                 {...register('email')}
                 disabled={isLoading}
               />
