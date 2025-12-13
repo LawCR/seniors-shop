@@ -1,5 +1,4 @@
 import { getCategories } from '@/app/actions/categories'
-import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { CategoriesTable } from '@/components/admin/categories-table'
 import { CategoryDialog } from '@/components/admin/category-dialog'

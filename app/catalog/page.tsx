@@ -21,7 +21,7 @@ export default async function CatalogPage({ searchParams }: CatalogPageProps) {
   ])
 
   const products = productsResult.success ? productsResult.data : []
-  const categories = categoriesResult.success ? (categoriesResult.data as any) : []
+  const categories = categoriesResult.success ? (categoriesResult.data) : []
 
   return (
     <div className="min-h-screen flex flex-col bg-background">

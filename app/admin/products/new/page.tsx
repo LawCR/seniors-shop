@@ -1,6 +1,5 @@
 import { getCategories } from '@/app/actions/categories'
 import { ProductForm } from '@/components/admin/product-form'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'

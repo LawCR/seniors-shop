@@ -37,7 +37,7 @@ const heroSlides = [
 ]
 
 export function HeroCarousel() {
-  const [api, setApi] = useState<any>()
+  const [_, setApi] = useState<any>()
 
   return (
     <div className="relative w-full">

@@ -42,6 +42,7 @@ export default function LoginPage() {
         router.refresh()
       }
     } catch (error) {
+      console.log(error)
       toast.error('Error', {
         description: 'Ocurrió un error inesperado',
       })

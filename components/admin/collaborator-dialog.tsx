@@ -67,6 +67,7 @@ export function CollaboratorDialog({
         toast.error(result.error || 'Error al guardar el colaborador')
       }
     } catch (error) {
+      console.log(error)
       toast.error('Ocurrió un error inesperado')
     } finally {
       setIsSubmitting(false)

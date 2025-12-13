@@ -1,11 +1,12 @@
 'use client'
 
 import { getCollaborators } from '@/app/actions/collaborators'
+import { Collaborator } from '@prisma/client'
 import { Users } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
 export function CollaboratorsSection() {
-  const [collaborators, setCollaborators] = useState<any[]>([])
+  const [collaborators, setCollaborators] = useState<Collaborator[]>([])
 
   useEffect(() => {
     async function load() {
@@ -112,7 +113,7 @@ export function CollaboratorsSection() {
                       <div className="w-full h-px bg-white/20 my-4" />
 
                       <p className="text-sm leading-relaxed opacity-95 italic">
-                        "{collaborator.description}"
+                        &quot;{collaborator.description}&quot;
                       </p>
                     </div>
                   </div>

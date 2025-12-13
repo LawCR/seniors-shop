@@ -6,10 +6,10 @@ import { useRouter, useSearchParams } from 'next/navigation'
 import { cn } from '@/lib/utils'
 
 interface CategoryFiltersProps {
-  categories: Category[]
+  categories?: Category[]
 }
 
-export function CategoryFilters({ categories }: CategoryFiltersProps) {
+export function CategoryFilters({ categories = [] }: CategoryFiltersProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
   const currentCategoryId = searchParams.get('category')
