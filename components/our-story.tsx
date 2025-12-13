@@ -23,7 +23,7 @@ export function OurStory() {
 
             {/* Floating Badge */}
             <div className="absolute bottom-8 -right-4 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-3 animate-float border border-secondary/20">
-              <div className="bg-secondary/20 p-3 rounded-xl">
+              <div className="bg-secondary/80 p-3 rounded-xl">
                 <Heart className="h-6 w-6 text-secondary-foreground" fill="currentColor" />
               </div>
               <div>
@@ -49,7 +49,7 @@ export function OurStory() {
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-primary font-semibold">Seniors Shop</strong> nació del deseo de dar visibilidad
+                <strong className="text-primary font-semibold">Manos de Vida</strong> nació del deseo de dar visibilidad
                 y apoyo a los talentosos artesanos de la tercera edad que, con sus manos expertas y
                 corazones llenos de pasión, crean productos únicos y llenos de historia.
               </p>

@@ -24,7 +24,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Logo size="sm" />
-            <span className="text-lg font-bold">Seniors Shop</span>
+            <span className="text-lg font-bold">Manos de Vida</span>
           </Link>
 
           {/* Desktop Navigation */}

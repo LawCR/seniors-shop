@@ -94,7 +94,7 @@ export function ObjectivesSection() {
               Por Qué Elegirnos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lo que hace especial comprar en Seniors Shop
+              Lo que hace especial comprar en Manos de Vida
             </p>
           </div>
 

@@ -13,7 +13,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Logo size="sm" />
-              <span className="text-lg font-bold">Seniors Shop</span>
+              <span className="text-lg font-bold">Manos de Vida</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Apoyando el talento artesanal de nuestros mayores, una creación a la vez.
@@ -93,7 +93,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© {currentYear} Seniors Shop. Todos los derechos reservados.</p>
+          <p>© {currentYear} Manos de Vida. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

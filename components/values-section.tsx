@@ -24,7 +24,7 @@ const values = [
     description:
       'Respeto, calidad, tradición, inclusión y compromiso social. Valoramos el trabajo artesanal, la experiencia de vida y el legado cultural que cada colaborador aporta a nuestra comunidad.',
     color: 'text-accent',
-    bgColor: 'bg-accent/10',
+    bgColor: 'bg-accent/20',
   },
 ]
 

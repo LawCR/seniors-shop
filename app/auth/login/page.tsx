@@ -56,7 +56,7 @@ export default function LoginPage() {
           <div className="flex justify-center mb-4">
             <Logo size="lg" />
           </div>
-          <CardTitle className="text-3xl font-bold">Seniors Shop</CardTitle>
+          <CardTitle className="text-3xl font-bold">Manos de Vida</CardTitle>
           <CardDescription>Panel de Administración</CardDescription>
         </CardHeader>
         <CardContent>

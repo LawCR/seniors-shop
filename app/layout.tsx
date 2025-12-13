@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Seniors Shop - Productos Artesanales",
+  title: "Manos de Vida - Productos Artesanales",
   description: "Plataforma de e-commerce para productos hechos a mano por artesanos de la tercera edad",
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Toaster richColors position="top-right" />
+        <Toaster richColors position="top-right" theme='light' />
       </body>
     </html>
   );
