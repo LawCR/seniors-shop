@@ -55,6 +55,7 @@ export function CheckoutForm() {
       paymentMethod: data.paymentMethod,
       address: data.address,
       city: data.city,
+      phone: data.phone,
     }
 
     const whatsappUrl = generateWhatsAppURL(orderData)

@@ -8,6 +8,7 @@ interface OrderDetails {
   paymentMethod?: string
   address?: string
   city?: string
+  phone: string
 }
 
 export function generateWhatsAppURL(order: OrderDetails): string {
@@ -18,6 +19,7 @@ export function generateWhatsAppURL(order: OrderDetails): string {
   message += `*Datos del cliente:*\n`
   message += `Nombre: ${order.fullName}\n`
   message += `DNI: ${order.dni}\n`
+  message += `Teléfono: ${order.phone}\n`
   if (order.address) message += `Dirección: ${order.address}\n`
   if (order.city) message += `Ciudad: ${order.city}\n`
   message += `\n`
