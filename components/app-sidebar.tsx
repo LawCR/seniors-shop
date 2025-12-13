@@ -9,6 +9,7 @@ import {
   Users,
   LogOut,
   Menu,
+  ShoppingCart,
 } from 'lucide-react'
 import {
   Sidebar,
@@ -32,6 +33,11 @@ const menuItems = [
     title: 'Dashboard',
     icon: LayoutDashboard,
     href: '/admin',
+  },
+  {
+    title: 'Órdenes',
+    icon: ShoppingCart,
+    href: '/admin/orders',
   },
   {
     title: 'Productos',
