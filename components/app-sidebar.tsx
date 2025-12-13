@@ -40,6 +40,11 @@ const menuItems = [
     href: '/admin/orders',
   },
   {
+    title: 'Clientes',
+    icon: Users,
+    href: '/admin/clients',
+  },
+  {
     title: 'Productos',
     icon: Package,
     href: '/admin/products',
