@@ -8,9 +8,31 @@ import { Badge } from '@/components/ui/badge'
 import { ArrowLeft, Star, ShieldCheck, Truck } from 'lucide-react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { Metadata } from 'next'
 
 interface ProductPageProps {
   params: Promise<{ id: string }>
+}
+
+export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
+  const { id } = await params
+  const { data: product } = await getProductById(id)
+
+  if (!product) {
+    return {
+      title: 'Producto no encontrado',
+    }
+  }
+
+  return {
+    title: product.name,
+    description: product.description?.slice(0, 160) || `Compre ${product.name} en Manos de Vida.`,
+    openGraph: {
+      title: product.name,
+      description: product.description?.slice(0, 160) || '',
+      images: product.images[0] ? [{ url: product.images[0] }] : [],
+    },
+  }
 }
 
 export default async function ProductPage({ params }: ProductPageProps) {

@@ -23,7 +23,6 @@ export async function getProducts() {
 
 export async function getProductById(id: string) {
   try {
-    console.log({ id })
     const product = await prisma.product.findUnique({
       where: { id },
       include: {

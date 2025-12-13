@@ -18,7 +18,6 @@ export default async function EditProductPage({
     getCategories(),
   ])
 
-  console.log(productResult, categoriesResult)
   if (!productResult.success || !productResult.data) {
     notFound()
   }
