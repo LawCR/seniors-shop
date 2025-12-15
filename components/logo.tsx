@@ -12,21 +12,21 @@ export function Logo({ size = 'md', className }: LogoProps) {
   return (
     <div
       className={cn(
-        'flex items-center justify-center rounded-full bg-primary shadow-lg',
+        'flex items-center justify-center rounded-full  shadow-lg',
         sizeClasses[size],
         className
       )}
     >
       {/* Reemplaza este contenido con tu logo/imagen cuando lo tengas */}
-      <span className="font-bold text-primary-foreground">SS</span>
+      {/* <span className="font-bold text-primary-foreground">SS</span> */}
 
-      {/* Para usar una imagen, descomenta esto y comenta el span de arriba:
-      <img 
-        src="/logo.png" 
-        alt="Seniors Shop Logo" 
-        className="h-full w-full object-contain p-1"
+      {/* Para usar una imagen, descomenta esto y comenta el span de arriba: */}
+      <img
+        src="/logo.svg"
+        alt="Seniors Shop Logo"
+        className="h-full w-full object-contain p-1 text-white stroke-1 stroke-white fill-white "
       />
-      */}
+
     </div>
   )
 }

@@ -23,7 +23,7 @@ const heroSlides = [
   {
     title: 'Apoyando a Nuestros Mayores',
     description: 'Cada compra ayuda a dar visibilidad al talento de nuestros colaboradores',
-    image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=600&fit=crop',
+    image: 'https://static.wixstatic.com/media/63876d_ec107b13727445fd9335097aca3b7799~mv2.jpg/v1/fill/w_1125,h_434,al_c,q_85,enc_avif,quality_auto/63876d_ec107b13727445fd9335097aca3b7799~mv2.jpg',
     cta: 'Conocer Más',
     ctaLink: '#our-story',
   },

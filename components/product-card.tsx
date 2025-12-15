@@ -104,7 +104,7 @@ export function ProductCard({ product }: ProductCardProps) {
           {/* Info Section */}
           <div className="p-5 flex flex-col flex-1">
             <div className="flex items-start justify-between gap-4 mb-2">
-              <div>
+              <div className='flex-1'>
                 <p className="text-xs font-semibold text-primary uppercase tracking-wider mb-1">
                   {product.category.name}
                 </p>
@@ -112,8 +112,8 @@ export function ProductCard({ product }: ProductCardProps) {
                   {product.name}
                 </h3>
               </div>
-              <div className="flex flex-col items-end">
-                <span className="text-lg font-bold text-foreground">
+              <div className="flex flex-col items-end shrink-0">
+                <span className="text-lg font-bold text-foreground shrink-0">
                   S/ {product.price.toFixed(2)}
                 </span>
               </div>

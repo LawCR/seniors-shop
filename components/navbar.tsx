@@ -23,7 +23,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <Logo size="sm" />
+            <Logo size="md" />
             <span className="text-lg font-bold">Manos de Vida</span>
           </Link>
 

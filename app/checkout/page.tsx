@@ -36,23 +36,30 @@ export default function CheckoutPage() {
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />
 
-      <main className="flex-1 container mx-auto px-4 py-8 md:py-12">
+      <main className="flex-1 container mx-auto px-4 py-8 md:py-12 ">
         <div className="mb-8 text-center max-w-2xl mx-auto relative">
-          <div className="absolute left-0 top-1/2 -translate-y-1/2 hidden md:block">
+          {/* <div className="absolute left-0 top-1/2 -translate-y-1/2 hidden md:block">
             <Button asChild variant="ghost" size="sm">
               <Link href="/cart">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Volver
               </Link>
             </Button>
-          </div>
+          </div> */}
           <h1 className="text-3xl font-bold tracking-tight mb-2">Finalizar Compra</h1>
           <p className="text-muted-foreground">
             Completa tus datos para enviarnos tu pedido por WhatsApp.
             Nos pondremos en contacto contigo para coordinar el pago y la entrega.
           </p>
         </div>
-
+        <div className="-translate-y-1/2 block">
+          <Button asChild variant="ghost" size="sm">
+            <Link href="/cart">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Volver
+            </Link>
+          </Button>
+        </div>
         <div className="grid lg:grid-cols-3 gap-8 md:gap-12 max-w-6xl mx-auto">
           {/* Checkout Form */}
           <div className="lg:col-span-2 space-y-8">
