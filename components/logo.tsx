@@ -12,7 +12,7 @@ export function Logo({ size = 'md', className }: LogoProps) {
   return (
     <div
       className={cn(
-        'flex items-center justify-center rounded-full  shadow-lg',
+        'flex items-center justify-center rounded-full overflow-hidden shadow-lg',
         sizeClasses[size],
         className
       )}
@@ -22,9 +22,9 @@ export function Logo({ size = 'md', className }: LogoProps) {
 
       {/* Para usar una imagen, descomenta esto y comenta el span de arriba: */}
       <img
-        src="/logo.svg"
+        src="/logo2.png"
         alt="Seniors Shop Logo"
-        className="h-full w-full object-contain p-1 text-white stroke-1 stroke-white fill-white "
+        className="h-full w-full object-contain rounded-full"
       />
 
     </div>
