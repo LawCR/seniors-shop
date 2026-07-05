@@ -52,7 +52,7 @@ export function ObjectivesSection() {
               <TrendingUp className="h-4 w-4 text-primary" />
               <span className="text-sm font-medium text-primary">Nuestros Objetivos</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
               Lo Que Buscamos Lograr
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -67,14 +67,14 @@ export function ObjectivesSection() {
                 className="group relative"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <div className="relative h-full p-8 rounded-2xl bg-card border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <div className="relative h-full p-8 rounded-2xl bg-card border border-border/80 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                   <div className="flex flex-col h-full">
                     <div className="mb-6">
                       <div className="inline-flex p-4 rounded-xl bg-primary/10 group-hover:bg-primary/20 transition-colors">
                         <objective.icon className="h-8 w-8 text-primary" />
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold mb-3">{objective.title}</h3>
+                    <h3 className="text-xl font-bold mb-3 font-serif">{objective.title}</h3>
                     <p className="text-muted-foreground leading-relaxed">{objective.description}</p>
                   </div>
                 </div>
@@ -90,11 +90,11 @@ export function ObjectivesSection() {
               <Sparkles className="h-4 w-4 text-secondary" />
               <span className="text-sm font-medium text-secondary">Beneficios</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
               Por Qué Elegirnos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lo que hace especial comprar en Manos de Vida
+              Lo que hace especial comprar en Qori
             </p>
           </div>
 
@@ -105,14 +105,14 @@ export function ObjectivesSection() {
                 className="group relative"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <div className="relative h-full p-8 rounded-2xl bg-card border-2 border-border hover:border-secondary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <div className="relative h-full p-8 rounded-2xl bg-card border border-border/80 hover:border-secondary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
                   <div className="flex flex-col h-full">
                     <div className="mb-6">
                       <div className="inline-flex p-4 rounded-xl bg-secondary/10 group-hover:bg-secondary/20 transition-colors">
                         <benefit.icon className="h-8 w-8 text-secondary" />
                       </div>
                     </div>
-                    <h3 className="text-xl font-bold mb-3">{benefit.title}</h3>
+                    <h3 className="text-xl font-bold mb-3 font-serif">{benefit.title}</h3>
                     <p className="text-muted-foreground leading-relaxed">{benefit.description}</p>
                   </div>
                 </div>

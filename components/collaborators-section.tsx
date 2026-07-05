@@ -34,7 +34,7 @@ export function CollaboratorsSection() {
             <Users className="h-4 w-4 text-primary" />
             <span className="text-sm font-medium text-primary">Nuestro Equipo Artesanal</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight font-serif">
             Manos que Crean Historias
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
@@ -60,16 +60,16 @@ export function CollaboratorsSection() {
                       <div className="absolute inset-0 bg-linear-to-t from-black/50 to-transparent" />
 
                       <div className="absolute bottom-4 left-4 text-white">
-                        <h3 className="text-2xl font-bold leading-none">
+                        <h3 className="text-2xl font-bold leading-none font-serif">
                           {collaborator.firstName}
                         </h3>
-                        <h3 className="text-xl font-medium opacity-90">
+                        <h3 className="text-xl font-medium opacity-90 font-serif">
                           {collaborator.lastName}
                         </h3>
                       </div>
                     </div>
 
-                    <div className="h-2/5 p-6 flex flex-col justify-between bg-white/50 backdrop-blur-sm">
+                    <div className="h-2/5 p-6 flex flex-col justify-between bg-zinc-950/70 backdrop-blur-sm">
                       <div>
                         <p className="text-primary font-semibold tracking-wide uppercase text-xs mb-2">
                           Artesano Experto

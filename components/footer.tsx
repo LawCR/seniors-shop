@@ -13,10 +13,10 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Logo size="sm" />
-              <span className="text-lg font-bold">Manos de Vida</span>
+              <span className="text-xl font-bold font-serif tracking-wider text-primary">Qori</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Apoyando el talento artesanal de nuestros mayores, una creación a la vez.
+              Salsas artesanales premium, el sabor de oro de nuestra tierra.
             </p>
           </div>
 
@@ -57,7 +57,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>info@seniorsshop.com</span>
+                <span>info@qori.pe</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5" />
@@ -93,7 +93,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© {currentYear} Manos de Vida. Todos los derechos reservados.</p>
+          <p>© {currentYear} Qori. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

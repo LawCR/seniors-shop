@@ -14,25 +14,24 @@ import Link from 'next/link'
 
 const heroSlides = [
   {
-    title: 'Productos Artesanales',
-    description: 'Hechos con amor por nuestros queridos artesanos de la tercera edad',
-    image: 'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=1200&h=600&fit=crop',
-    cta: 'Ver Catálogo',
+    title: 'Salsas Artesanales Premium',
+    description: 'Sabores intensos y tradicionales elaborados con ingredientes seleccionados de la más alta calidad.',
+    image: 'https://images.unsplash.com/photo-1551437424-8d2ccf214a19?w=1600&h=800&fit=crop',
+    cta: 'Ver Colección',
     ctaLink: '/catalog',
   },
   {
-    title: 'Apoyando a Nuestros Mayores',
-    description: 'Cada compra ayuda a dar visibilidad al talento de nuestros colaboradores',
-    image: 'https://static.wixstatic.com/media/63876d_ec107b13727445fd9335097aca3b7799~mv2.jpg/v1/fill/w_1125,h_434,al_c,q_85,enc_avif,quality_auto/63876d_ec107b13727445fd9335097aca3b7799~mv2.jpg',
-    cta: 'Conocer Más',
+    title: 'El Sabor de Oro de Nuestra Tierra',
+    description: 'Qori rinde homenaje a las recetas tradicionales con una selección de salsas hechas con pasión y maestría.',
+    image: 'https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=1600&h=800&fit=crop',
+    cta: 'Nuestra Esencia',
     ctaLink: '#our-story',
   },
   {
-    title: 'Calidad y Tradición',
-    description: 'Productos únicos elaborados con técnicas tradicionales',
-    // image: 'https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=1200&h=600&fit=crop',
-    image: 'https://teleasistencia.es/storage/redactor/ktiPpqRhEeAd5wkbi8gZlvVobToKXA3xgxjuDnNR.jpg',
-    cta: 'Explorar',
+    title: 'Experiencia Gastronómica Única',
+    description: 'El acompañamiento perfecto para realzar tus platos favoritos con un toque sofisticado y picante.',
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=1600&h=800&fit=crop',
+    cta: 'Explorar Salsas',
     ctaLink: '/catalog',
   },
 ]
@@ -68,7 +67,7 @@ export function HeroCarousel() {
                 <div className="relative h-full flex items-center">
                   <div className="container mx-auto px-4">
                     <div className="max-w-2xl space-y-4 animate-fade-in">
-                      <h1 className="text-4xl md:text-6xl font-bold text-white">
+                      <h1 className="text-4xl md:text-6xl font-bold text-white font-serif tracking-wide">
                         {slide.title}
                       </h1>
                       <p className="text-lg md:text-xl text-gray-200">

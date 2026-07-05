@@ -8,9 +8,9 @@ export function OurStory() {
         <div className="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
           {/* Image Side */}
           <div className="relative order-2 md:order-1 perspective-1000 group">
-            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl rotate-2 transition-transform duration-700 group-hover:rotate-0 border-8 border-white">
+            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl rotate-2 transition-transform duration-700 group-hover:rotate-0 border-8 border-card">
               <img
-                src="https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&h=800&fit=crop"
+                src="https://plus.unsplash.com/premium_photo-1695120371091-ed395328de61?w=800&h=800&fit=crop"
                 alt="Artesanos trabajando"
                 className="object-cover w-full h-full transform scale-105 group-hover:scale-100 transition-transform duration-700"
               />
@@ -18,17 +18,17 @@ export function OurStory() {
             </div>
 
             {/* Decorative Element */}
-            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-secondary/30 rounded-full blur-3xl -z-10" />
-            <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary/30 rounded-full blur-3xl -z-10" />
+            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-secondary/20 rounded-full blur-3xl -z-10" />
+            <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary/20 rounded-full blur-3xl -z-10" />
 
             {/* Floating Badge */}
-            <div className="absolute bottom-8 -right-4 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-3 animate-float border border-secondary/20">
+            <div className="absolute bottom-8 -right-4 bg-card p-4 rounded-2xl shadow-xl flex items-center gap-3 animate-float border border-border">
               <div className="bg-secondary/80 p-3 rounded-xl">
                 <Heart className="h-6 w-6 text-secondary-foreground" fill="currentColor" />
               </div>
               <div>
                 <p className="text-xs text-muted-foreground font-semibold uppercase tracking-wider">Hecho con</p>
-                <p className="text-lg font-bold text-foreground">Mucho Amor</p>
+                <p className="text-lg font-bold text-foreground">Pasión</p>
               </div>
             </div>
           </div>
@@ -40,16 +40,16 @@ export function OurStory() {
               <span className="text-sm font-bold text-primary tracking-wide">NUESTRA ESENCIA</span>
             </div>
 
-            <h2 className="text-5xl md:text-6xl font-bold leading-tight tracking-tight text-foreground">
+            <h2 className="text-5xl md:text-6xl font-bold leading-tight tracking-tight text-foreground font-serif">
               Tejiendo Historias,
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary block mt-2">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary block mt-2 font-serif">
                 Creando Legados
               </span>
             </h2>
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-primary font-semibold">Manos de Vida</strong> nació del deseo de dar visibilidad
+                <strong className="text-primary font-semibold">Qori</strong> nació del deseo de dar visibilidad
                 y apoyo a los talentosos artesanos de la tercera edad que, con sus manos expertas y
                 corazones llenos de pasión, crean productos únicos y llenos de historia.
               </p>

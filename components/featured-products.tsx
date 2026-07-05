@@ -25,7 +25,7 @@ export async function FeaturedProducts() {
             <Star className="h-4 w-4 text-secondary fill-current" />
             <span className="text-sm font-medium text-secondary">Lo Mejor de Nuestra Colección</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
             Productos Destacados
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

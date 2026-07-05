@@ -7,6 +7,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-playfair-display);
   --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -46,90 +47,86 @@
 :root {
   --radius: 0.625rem;
 
-  /* Pastel Color Scheme for Seniors Shop */
-  /* Pastel Color Scheme for Seniors Shop - Adjusted for Contrast */
-  --background: #FFFCF9;
-  /* Off-white warmer */
-  --foreground: #2D2D2D;
-  /* Darker charcoal for better text readability */
+  /* Obsidian Dark & Premium Gold Color Scheme for Qori */
+  --background: #09090b;
+  --foreground: #fafafa;
 
-  --card: #FFFFFF;
-  --card-foreground: #2D2D2D;
+  --card: #18181b;
+  --card-foreground: #fafafa;
 
-  --popover: #FFFFFF;
-  --popover-foreground: #2D2D2D;
+  --popover: #18181b;
+  --popover-foreground: #fafafa;
 
-  /* Primary: Elegant Purple (more saturated than before) */
-  --primary: #9D76C1;
-  --primary-foreground: #FFFFFF;
+  /* Primary: Metallic Gold */
+  --primary: #d4af37;
+  --primary-foreground: #09090b;
 
-  /* Secondary: Warm Peach/Coral (more saturated) */
-  --secondary: #E69A8D;
-  --secondary-foreground: #FFFFFF;
+  /* Secondary: Velvet Chili Red (sauce element) */
+  --secondary: #8b1e1e;
+  --secondary-foreground: #fafafa;
 
-  --muted: #F5F5F5;
-  --muted-foreground: #6B6B6B;
+  --muted: #27272a;
+  --muted-foreground: #a1a1aa;
 
-  --accent: #D5F5E3;
-  /* Mint green */
-  --accent-foreground: #4A4A4A;
+  --accent: #27272a;
+  --accent-foreground: #fafafa;
 
-  --destructive: #F8B4B4;
-  /* Soft red */
-  --destructive-foreground: #4A4A4A;
+  --destructive: #7f1d1d;
+  --destructive-foreground: #fafafa;
 
-  --border: #E8E8E8;
-  --input: #E8E8E8;
-  --ring: #E6D5F5;
+  --border: #27272a;
+  --input: #27272a;
+  --ring: #d4af37;
 
-  --chart-1: #E6D5F5;
-  --chart-2: #FFE5D9;
-  --chart-3: #D5F5E3;
-  --chart-4: #F5E6D3;
-  --chart-5: #E3D5F5;
+  --chart-1: #d4af37;
+  --chart-2: #8b1e1e;
+  --chart-3: #27272a;
+  --chart-4: #a1a1aa;
+  --chart-5: #e4e4e7;
 
-  --sidebar: #FFFFFF;
-  --sidebar-foreground: #4A4A4A;
-  --sidebar-primary: #E6D5F5;
-  --sidebar-primary-foreground: #4A4A4A;
-  --sidebar-accent: #FFE5D9;
-  --sidebar-accent-foreground: #4A4A4A;
-  --sidebar-border: #E8E8E8;
-  --sidebar-ring: #E6D5F5;
+  --sidebar: #09090b;
+  --sidebar-foreground: #fafafa;
+  --sidebar-primary: #d4af37;
+  --sidebar-primary-foreground: #09090b;
+  --sidebar-accent: #18181b;
+  --sidebar-accent-foreground: #fafafa;
+  --sidebar-border: #27272a;
+  --sidebar-ring: #d4af37;
 }
 
 .dark {
-  --background: #2A2A2A;
-  --foreground: #F5F5F5;
-  --card: #333333;
-  --card-foreground: #F5F5F5;
-  --popover: #333333;
-  --popover-foreground: #F5F5F5;
-  --primary: #B8A3D9;
-  --primary-foreground: #F5F5F5;
-  --secondary: #D9B8A3;
-  --secondary-foreground: #F5F5F5;
-  --muted: #3A3A3A;
-  --muted-foreground: #A8A8A8;
-  --accent: #A3D9B8;
-  --accent-foreground: #F5F5F5;
-  --destructive: #D98A8A;
-  --border: #444444;
-  --input: #444444;
-  --ring: #B8A3D9;
-  --chart-1: #B8A3D9;
-  --chart-2: #D9B8A3;
-  --chart-3: #A3D9B8;
-  --chart-4: #D9C8A3;
-  --chart-5: #C8A3D9;
-  --sidebar: #333333;
-  --sidebar-foreground: #F5F5F5;
-  --sidebar-primary: #B8A3D9;
-  --sidebar-primary-foreground: #F5F5F5;
-  --sidebar-accent: #D9B8A3;
-  --sidebar-accent-foreground: #F5F5F5;
-  --sidebar-border: #444444;
-  --sidebar-ring: #B8A3D9;
+  /* Same variables as root, making dark mode the standard default */
+  --background: #09090b;
+  --foreground: #fafafa;
+  --card: #18181b;
+  --card-foreground: #fafafa;
+  --popover: #18181b;
+  --popover-foreground: #fafafa;
+  --primary: #d4af37;
+  --primary-foreground: #09090b;
+  --secondary: #8b1e1e;
+  --secondary-foreground: #fafafa;
+  --muted: #27272a;
+  --muted-foreground: #a1a1aa;
+  --accent: #27272a;
+  --accent-foreground: #fafafa;
+  --destructive: #7f1d1d;
+  --border: #27272a;
+  --input: #27272a;
+  --ring: #d4af37;
+  --chart-1: #d4af37;
+  --chart-2: #8b1e1e;
+  --chart-3: #27272a;
+  --chart-4: #a1a1aa;
+  --chart-5: #e4e4e7;
+  --sidebar: #09090b;
+  --sidebar-foreground: #fafafa;
+  --sidebar-primary: #d4af37;
+  --sidebar-primary-foreground: #09090b;
+  --sidebar-accent: #18181b;
+  --sidebar-accent-foreground: #fafafa;
+  --sidebar-border: #27272a;
+  --sidebar-ring: #d4af37;
 }
 
 @layer base {

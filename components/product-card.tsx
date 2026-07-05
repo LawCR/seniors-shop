@@ -82,8 +82,8 @@ export function ProductCard({ product }: ProductCardProps) {
             </div>
 
             <div className="absolute top-3 right-3">
-              <div className="bg-white/90 backdrop-blur-md rounded-full p-2 shadow-sm opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
-                <Eye className="h-4 w-4 text-gray-700" />
+              <div className="bg-zinc-950/80 backdrop-blur-md rounded-full p-2 shadow-sm opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+                <Eye className="h-4 w-4 text-zinc-200" />
               </div>
             </div>
 
@@ -92,7 +92,7 @@ export function ProductCard({ product }: ProductCardProps) {
               <Button
                 onClick={handleAddToCart}
                 disabled={product.stock <= 0}
-                className="w-full shadow-lg bg-white text-primary hover:bg-primary hover:text-white border-none"
+                className="w-full shadow-lg bg-zinc-900 text-primary hover:bg-primary hover:text-primary-foreground border border-primary/30"
                 size="lg"
               >
                 <ShoppingCart className="mr-2 h-4 w-4" />
@@ -108,7 +108,7 @@ export function ProductCard({ product }: ProductCardProps) {
                 <p className="text-xs font-semibold text-primary uppercase tracking-wider mb-1">
                   {product.category.name}
                 </p>
-                <h3 className="font-bold text-lg text-foreground line-clamp-2 leading-tight group-hover:text-primary transition-colors">
+                <h3 className="font-bold text-lg text-foreground line-clamp-2 leading-tight group-hover:text-primary transition-colors font-serif">
                   {product.name}
                 </h3>
               </div>

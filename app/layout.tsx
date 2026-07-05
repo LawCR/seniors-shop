@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
@@ -13,35 +13,40 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const playfair = Playfair_Display({
+  variable: "--font-playfair-display",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: {
-    default: "Manos de Vida - Artesanía y Tradición",
-    template: "%s | Manos de Vida"
+    default: "Qori - Salsas Artesanales Gourmet",
+    template: "%s | Qori"
   },
-  description: "Descubre productos únicos hechos a mano por artesanos de la tercera edad. Calidad, tradición y amor en cada pieza.",
-  keywords: ["artesanía", "adulto mayor", "hecho a mano", "perú", "tejidos", "regalos"],
-  authors: [{ name: "Seniors Shop Team" }],
-  creator: "Seniors Shop",
+  description: "Salsas artesanales premium elaboradas con ingredientes seleccionados y recetas tradicionales. Descubre el sabor de oro en cada gota.",
+  keywords: ["salsas", "gourmet", "artesanal", "ají", "picante", "recetas tradicionales", "qori", "sabor peruano"],
+  authors: [{ name: "Qori Team" }],
+  creator: "Qori",
   openGraph: {
     type: "website",
     locale: "es_PE",
-    url: "https://seniors-shop.com",
-    title: "Manos de Vida - Artesanía y Tradición",
-    description: "Apoyando el talento artesanal de nuestros mayores.",
-    siteName: "Manos de Vida",
+    url: "https://seniors-shop.com", // update later if needed
+    title: "Qori - Salsas Artesanales Gourmet",
+    description: "Salsas artesanales premium elaboradas con ingredientes seleccionados.",
+    siteName: "Qori",
     images: [
       {
-        url: "/og-image.jpg", // Needs to be added to public folder ideally
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Manos de Vida - Artesanía con Amor",
+        alt: "Qori - Salsas Gourmet",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Manos de Vida - Artesanía y Tradición",
-    description: "Apoyando el talento artesanal de nuestros mayores.",
+    title: "Qori - Salsas Artesanales Gourmet",
+    description: "Salsas artesanales premium elaboradas con ingredientes seleccionados.",
     images: ["/og-image.jpg"],
   },
 };
@@ -52,12 +57,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
       >
         {children}
-        <Toaster richColors position="top-right" theme='light' />
+        <Toaster richColors position="top-right" theme="dark" />
       </body>
     </html>
   );
