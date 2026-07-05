@@ -72,7 +72,7 @@ export function AppSidebar() {
         <div className="flex items-center gap-2">
           <Logo size="sm" />
           <div className="flex flex-col">
-            <span className="text-sm font-semibold">Manos de Vida</span>
+            <span className="text-sm font-semibold">Qori</span>
             <span className="text-xs text-muted-foreground">Admin Panel</span>
           </div>
         </div>

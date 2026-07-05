@@ -41,38 +41,34 @@ export function OurStory() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-bold leading-tight tracking-tight text-foreground font-serif">
-              Tejiendo Historias,
+              ¿Qué es Qori?
               <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary block mt-2 font-serif">
-                Creando Legados
+                El Oro de los Andes
               </span>
             </h2>
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-primary font-semibold">Qori</strong> nació del deseo de dar visibilidad
-                y apoyo a los talentosos artesanos de la tercera edad que, con sus manos expertas y
-                corazones llenos de pasión, crean productos únicos y llenos de historia.
+                <strong className="text-primary font-semibold">QORI</strong> es una salsa dip gourmet picante de aguaymanto, inspirada en los sabores andinos del Perú. Su nombre significa &quot;oro&quot; en quechua, haciendo referencia al gran valor del aguaymanto, su ingrediente estrella.
               </p>
 
               <p>
-                Cada pieza que encuentras en nuestra tienda es el resultado de años de experiencia,
-                dedicación y amor por el arte tradicional. Desde tejidos elaborados con técnicas
-                ancestrales hasta accesorios cuidadosamente diseñados, cada producto cuenta una historia.
+                Elaborada con insumos 100% naturales, libre de gluten y conservantes, y totalmente apta para veganos. Se presenta en un sofisticado frasco de vidrio de 100 g, diseñado para ofrecer una experiencia gastronómica innovadora, saludable y de la más alta calidad.
               </p>
             </div>
 
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-border">
               <div className="text-center md:text-left">
-                <div className="text-3xl font-bold text-foreground">15+</div>
-                <div className="text-sm font-medium text-muted-foreground mt-1">Artesanos Expertos</div>
+                <div className="text-3xl font-bold text-foreground">100%</div>
+                <div className="text-sm font-medium text-muted-foreground mt-1">Natural y Vegano</div>
               </div>
               <div className="text-center md:text-left">
-                <div className="text-3xl font-bold text-foreground">100+</div>
-                <div className="text-sm font-medium text-muted-foreground mt-1">Productos Únicos</div>
+                <div className="text-3xl font-bold text-foreground">100g</div>
+                <div className="text-sm font-medium text-muted-foreground mt-1">Frasco Gourmet</div>
               </div>
               <div className="text-center md:text-left">
-                <div className="text-3xl font-bold text-foreground">500+</div>
-                <div className="text-sm font-medium text-muted-foreground mt-1">Clientes Felices</div>
+                <div className="text-3xl font-bold text-foreground">0%</div>
+                <div className="text-sm font-medium text-muted-foreground mt-1">Preservantes y Gluten</div>
               </div>
             </div>
           </div>

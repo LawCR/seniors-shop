@@ -57,7 +57,7 @@ export default function LoginPage() {
           <div className="flex justify-center mb-4">
             <Logo size="lg" />
           </div>
-          <CardTitle className="text-3xl font-bold">Manos de Vida</CardTitle>
+          <CardTitle className="text-3xl font-bold">Qori</CardTitle>
           <CardDescription>Panel de Administración</CardDescription>
         </CardHeader>
         <CardContent>
@@ -67,7 +67,7 @@ export default function LoginPage() {
               <Input
                 id="email"
                 type="email"
-                placeholder="admin@manosdevida.com"
+                placeholder="admin@qori.com"
                 {...register('email')}
                 disabled={isLoading}
               />

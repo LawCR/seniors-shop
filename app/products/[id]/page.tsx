@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
   return {
     title: product.name,
-    description: product.description?.slice(0, 160) || `Compre ${product.name} en Manos de Vida.`,
+    description: product.description?.slice(0, 160) || `Compre ${product.name} en Qori.`,
     openGraph: {
       title: product.name,
       description: product.description?.slice(0, 160) || '',

@@ -32,14 +32,14 @@ export function CollaboratorsSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-4">
             <Users className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium text-primary">Nuestro Equipo Artesanal</span>
+            <span className="text-sm font-medium text-primary">Productores y Origen</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight font-serif">
-            Manos que Crean Historias
+            El Corazón Detrás de Qori
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Cada artesano aporta años de experiencia y amor en cada creación.
-            Conócelos y descubre la pasión detrás de cada producto.
+            Trabajamos de la mano con agricultores locales de los Andes peruanos.
+            Su cultivo sostenible y cosecha artesanal del aguaymanto garantizan la excelencia de nuestra salsa.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ export function CollaboratorsSection() {
                     <div className="h-2/5 p-6 flex flex-col justify-between bg-zinc-950/70 backdrop-blur-sm">
                       <div>
                         <p className="text-primary font-semibold tracking-wide uppercase text-xs mb-2">
-                          Artesano Experto
+                          Productor Local
                         </p>
                         <div className="h-1 w-12 bg-primary rounded-full mb-3" />
                         <p className="text-sm text-muted-foreground line-clamp-3">

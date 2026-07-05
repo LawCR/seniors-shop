@@ -15,7 +15,7 @@ export function generateWhatsAppURL(order: OrderDetails): string {
   const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '987654321'
 
   // Build the message
-  let message = `¡Hola! Me gustaría realizar el siguiente pedido en *Manos de Vida*:\n\n`
+  let message = `¡Hola! Me gustaría realizar el siguiente pedido en *Qori*:\n\n`
   message += `*Datos del cliente:*\n`
   message += `Nombre: ${order.fullName}\n`
   message += `DNI: ${order.dni}\n`

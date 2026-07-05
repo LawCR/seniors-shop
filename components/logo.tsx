@@ -22,9 +22,9 @@ export function Logo({ size = 'md', className }: LogoProps) {
 
       {/* Para usar una imagen, descomenta esto y comenta el span de arriba: */}
       <img
-        src="/logo2.png"
-        alt="Seniors Shop Logo"
-        className="h-full w-full object-contain rounded-full"
+        src="/logo.png"
+        alt="Qori Logo"
+        className="h-full w-full object-center rounded-full scale-105"
       />
 
     </div>

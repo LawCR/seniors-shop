@@ -6,7 +6,7 @@ const values = [
     icon: Target,
     title: 'Misión',
     description:
-      'Proporcionar una plataforma que empodere a los artesanos de la tercera edad, permitiéndoles compartir sus creaciones con el mundo y generar ingresos dignos a través de su talento.',
+      'Llevar el sabor auténtico del aguaymanto peruano a consumidores nacionales e internacionales mediante productos gourmet innovadores, promoviendo la sostenibilidad y la gastronomía del Perú.',
     color: 'text-primary',
     bgColor: 'bg-primary/10',
   },
@@ -14,7 +14,7 @@ const values = [
     icon: Eye,
     title: 'Visión',
     description:
-      'Ser la plataforma líder en la promoción y venta de productos artesanales elaborados por personas mayores, reconocida por valorar la experiencia y el talento de nuestros colaboradores.',
+      'Ser la marca peruana líder en salsas dip gourmet de origen andino en América Latina, destacando por su innovación, calidad y valorización de ingredientes emblemáticos del Perú.',
     color: 'text-secondary',
     bgColor: 'bg-secondary/10',
   },
@@ -22,7 +22,7 @@ const values = [
     icon: Award,
     title: 'Valores',
     description:
-      'Respeto, calidad, tradición, inclusión y compromiso social. Valoramos el trabajo artesanal, la experiencia de vida y el legado cultural que cada colaborador aporta a nuestra comunidad.',
+      'Autenticidad, sostenibilidad, innovación, impacto social y calidad gourmet. Principios que definen la excelencia de nuestra salsa y nuestro compromiso con el origen andino.',
     color: 'text-yellow-500',
     bgColor: 'bg-yellow-500/10',
   },

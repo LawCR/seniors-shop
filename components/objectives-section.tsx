@@ -3,36 +3,36 @@ import { CheckCircle2, TrendingUp, Users, ShoppingBag, Sparkles, HandHeart } fro
 const objectives = [
   {
     icon: TrendingUp,
-    title: 'Visibilidad en el Mercado',
-    description: 'Dar a conocer el talento de nuestros artesanos a nivel nacional',
+    title: 'Objetivo Comercial',
+    description: 'Establecer presencia en al menos 15 puntos gourmet y e-commerce en CDMX en 2026, captando 1% de participación.',
   },
   {
     icon: Users,
-    title: 'Comunidad Activa',
-    description: 'Crear una red de apoyo entre artesanos y clientes',
+    title: 'Objetivo de Marketing',
+    description: 'Posicionar la marca a nivel internacional: 4,000 seguidores en Instagram y tasa de conversión del 1.5% online.',
   },
   {
     icon: ShoppingBag,
-    title: 'Comercio Justo',
-    description: 'Garantizar precios justos para los creadores',
+    title: 'Objetivo Financiero',
+    description: 'Alcanzar el punto de equilibrio en el primer año y lograr un margen neto internacional del 15% al segundo año.',
   },
 ]
 
 const benefits = [
   {
     icon: Sparkles,
-    title: 'Productos Únicos',
-    description: 'Cada pieza es única y hecha a mano con dedicación',
+    title: '100% Natural',
+    description: 'Elaborada con aguaymanto, páprika, azúcar y sal. Sin preservantes ni aditivos artificiales.',
   },
   {
     icon: HandHeart,
-    title: 'Impacto Social',
-    description: 'Tu compra apoya directamente a nuestros colaboradores',
+    title: 'Sabor Único',
+    description: 'Exquisitas notas frutales y cítricas del aguaymanto combinadas con un picor moderado de páprika.',
   },
   {
     icon: CheckCircle2,
-    title: 'Calidad Garantizada',
-    description: 'Productos elaborados con técnicas tradicionales de calidad',
+    title: 'Gran Versatilidad',
+    description: 'El dip y aderezo perfecto para snacks, hamburguesas, quesos, pizzas, carnes y coctelería.',
   },
 ]
 
@@ -56,7 +56,7 @@ export function ObjectivesSection() {
               Lo Que Buscamos Lograr
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Nuestro compromiso con la comunidad artesanal
+              Nuestras metas estratégicas para el crecimiento global
             </p>
           </div>
 
