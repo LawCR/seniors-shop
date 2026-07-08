@@ -16,7 +16,7 @@ const heroSlides = [
   {
     title: 'Salsas Artesanales Premium',
     description: 'Sabores intensos y tradicionales elaborados con ingredientes seleccionados de la más alta calidad.',
-    image: 'https://images.unsplash.com/photo-1551437424-8d2ccf214a19?w=1600&h=800&fit=crop',
+    image: 'https://res.cloudinary.com/alvaro-dev/image/upload/v1783471993/images/eunmdc5imsycyjaoiymn.jpg',
     cta: 'Ver Colección',
     ctaLink: '/catalog',
   },

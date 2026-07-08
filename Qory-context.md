@@ -35,6 +35,13 @@ Alcanzar el punto de equilibrio en el mercado mexicano durante el primer año de
 
 Elegir QORI significa optar por una salsa diferente a las tradicionales, ya que combina el aguaymanto peruano con un toque picante, ofreciendo un sabor único y equilibrado. Además:
 
+Está elaborada con ingredientes naturales, sin conservantes ni colorantes artificiales.
+Es una propuesta gourmet premium, ideal para consumidores que buscan nuevas experiencias gastronómicas.
+Tiene un origen peruano que resalta la riqueza de la biodiversidad andina.
+Es un producto versátil, perfecto para acompañar piqueos, carnes, hamburguesas, quesos, snacks y diversas preparaciones.
+Su envase de vidrio reutilizable y su enfoque sostenible refuerzan su compromiso con el medio ambiente.
+No existe actualmente una salsa dip de aguaymanto similar en el mercado objetivo, lo que convierte a QORI en una propuesta innovadora y diferenciada.
+
 - Elaborada con ingredientes naturales (aguaymanto, páprika, azúcar y sal), sin preservantes ni aditivos artificiales
 - Perfil de sabor único: combina notas frutales del aguaymanto con un picor moderado de la páprika
 - Apta para consumidores con dieta clean label (sin gluten, sin conservantes, sin colorantes)

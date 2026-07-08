@@ -53,7 +53,7 @@ export function ObjectivesSection() {
               <span className="text-sm font-medium text-primary">Nuestros Objetivos</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
-              Lo Que Buscamos Lograr
+              Lo que buscamos lograr
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Nuestras metas estratégicas para el crecimiento global
@@ -91,7 +91,7 @@ export function ObjectivesSection() {
               <span className="text-sm font-medium text-secondary">Beneficios</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
-              Por Qué Elegirnos
+              Por qué elegirnos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Lo que hace especial comprar en Qori

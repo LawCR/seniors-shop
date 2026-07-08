@@ -44,7 +44,7 @@ export function CategoryFilters({ categories = [] }: CategoryFiltersProps) {
       {categories.map((category) => (
         <Button
           key={category.id}
-          variant="outline"
+          variant={currentCategoryId === category.id ? "default" : "outline"}
           size="sm"
           onClick={() => handleCategoryClick(category.id)}
           className={cn(

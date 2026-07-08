@@ -8,9 +8,9 @@ export function OurStory() {
         <div className="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
           {/* Image Side */}
           <div className="relative order-2 md:order-1 perspective-1000 group">
-            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl rotate-2 transition-transform duration-700 group-hover:rotate-0 border-8 border-card">
+            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl transition-transform duration-700 border-8 border-card">
               <img
-                src="https://plus.unsplash.com/premium_photo-1695120371091-ed395328de61?w=800&h=800&fit=crop"
+                src="https://res.cloudinary.com/ykcm2o1i/image/upload/f_auto,q_auto/5ea71fb9-b72a-4f8c-a986-2daa537978d8_dgrmfu"
                 alt="Artesanos trabajando"
                 className="object-cover w-full h-full transform scale-105 group-hover:scale-100 transition-transform duration-700"
               />
@@ -43,7 +43,7 @@ export function OurStory() {
             <h2 className="text-5xl md:text-6xl font-bold leading-tight tracking-tight text-foreground font-serif">
               ¿Qué es Qori?
               <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary block mt-2 font-serif">
-                El Oro de los Andes
+                El oro de los Andes
               </span>
             </h2>
 
